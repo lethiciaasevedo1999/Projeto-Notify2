@@ -1,0 +1,12 @@
+body{
+    display: grid;
+     grid-template-areas:'nav' 
+                        'header'
+                        'main'
+                        'section'
+                        'section'
+                        'footer';
+    grid-template-columns: 100vw;
+    margin: 0;
+}
+
