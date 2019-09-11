@@ -8,7 +8,7 @@ body{
                         'footer';
     font-family: 'Roboto', sans-serif;
     grid-template-columns: 100vw;
-    grid-template-rows: 10vh;
+    grid-template-rows: 2vh;
     margin: 0;
 }
 
@@ -40,7 +40,6 @@ header .Hand div{
 section{
     align-items: center;
     display: flex;
-    flex-direction: column;
     grid-area: section;
     background: white;
 }
@@ -48,10 +47,12 @@ section .Descricao{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 1cm;
 }
 section .Descricao div img{
     width: 50px;
     background-color: #2dcb6f;
+    
 }
 
 header .iconesheader{
@@ -64,4 +65,5 @@ header .iconesheader{
 .Notify img{
     background-color: black;
     opacity: 0.5;
+    
 }
