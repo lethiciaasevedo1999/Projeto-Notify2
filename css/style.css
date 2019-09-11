@@ -47,7 +47,7 @@ section{
 section .Descricao{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 section .Descricao div img{
     width: 50px;
@@ -62,5 +62,6 @@ header .iconesheader{
 }
 
 .Notify img{
+    background-color: black;
     opacity: 0.5;
 }
