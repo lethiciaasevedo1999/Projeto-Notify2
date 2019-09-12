@@ -45,13 +45,14 @@ section{
 }
 section .Descricao{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     margin: 1cm;
 }
 section .Descricao div img{
     width: 50px;
     background-color: #2dcb6f;
+    
     
 }
 
