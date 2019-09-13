@@ -26,15 +26,20 @@ header{
     height: 480px;
 }
 
-header .Notify{
+header h1{
+    font-family: 'Pacifico', cursive;
+}
+
+header .Notify {
     padding: 60px;
     /* justify-content: center;
     align-items: center; */
 
 }
 
-header .Hand div{
-    background-image: url(../images/hand.png);
+header .Hand div img{
+    width: 200px;
+    height: 200px;
 }
 
 section{
@@ -47,12 +52,19 @@ section .Descricao{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1cm;
+    margin: 2cm;
 }
+
+/* section .Descricao div{
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+} */
+
 section .Descricao div img{
-    width: 50px;
+    align-items: center;
     background-color: #2dcb6f;
-    align-items: center
+    width: 50px;
     
     
 }
