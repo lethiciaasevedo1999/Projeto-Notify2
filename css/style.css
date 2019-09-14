@@ -12,68 +12,76 @@ body{
     margin: 0;
 }
 
-nav{
-background-color: #2dcb6f;
-grid-area: nav;
+body::-webkit-scrollbar{ 
+    width: 0px; /*remove scrollbar space */ 
+    background: transparent;
+}
+
+.icone1{
+    cursor: pointer;
+    background-color: #2ccc6d;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.icone2{
+    cursor: pointer;
+    flex-direction: row;
+    background-color: #2ccc6d;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 
 }
+
+.icone3{
+    cursor: pointer;
+    background-color:#2ccc6d;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
 
 header{
+
+    align-items: center;
     background-image: url(../images/banner.png);
-    background-size: cover;
-    display: flex;
     grid-area: header;
     height: 480px;
+    display: flex;
+    justify-content: space-evenly;
+    
 }
+
 
 header h1{
     font-family: 'Pacifico', cursive;
 }
 
-header .Notify {
-    padding: 60px;
-    /* justify-content: center;
-    align-items: center; */
-
-}
-
-header .Hand div img{
-    width: 200px;
-    height: 200px;
-}
-
-section{
-    align-items: center;
-    display: flex;
-    grid-area: section;
-    background: white;
-}
-section .Descricao{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 2cm;
-}
-
-/* section .Descricao div{
-    width: 300px;
-    justify-content: space-around;
-    align-items: center;
-} */
-
-section .Descricao div img{
-    align-items: center;
-    background-color: #2dcb6f;
-    width: 50px;
-    
-    
-}
-
 header .iconesheader{
     
-    align-items: center;
-    flex-direction: column;
+    display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+
+
+
+nav{
+background-color: #2dcb6f;
+grid-area: nav;
+
 }
 
 .Notify img{
@@ -81,3 +89,25 @@ header .iconesheader{
     opacity: 0.5;
     
 }
+
+section{
+    align-items: center;
+    display: flex;
+    grid-area: section;
+    background: white;
+    
+
+
+}
+ .Descricao{
+    display: flex;
+    align-items: center;
+    margin: 2cm;
+    justify-content: space-evenly;
+}
+
+/* section .Descricao div{
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+} */
