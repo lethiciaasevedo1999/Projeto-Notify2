@@ -68,12 +68,18 @@ header h1{
     font-family: 'Pacifico', cursive;
 }
 
-header .iconesheader{
+ .iconesheader{
     
-    display: flex;
     justify-content: center;
     flex-direction: column;
 }
+
+.Hand{
+    align-items: center;
+    width: 400px;
+    height: 380px;
+}
+
 
 
 
