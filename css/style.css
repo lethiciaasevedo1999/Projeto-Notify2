@@ -54,7 +54,6 @@ body::-webkit-scrollbar{
 
 
 header{
-
     align-items: center;
     background-image: url(../images/banner.png);
     grid-area: header;
@@ -68,20 +67,19 @@ header h1{
     font-family: 'Pacifico', cursive;
 }
 
- .iconesheader{
-    
+.iconesheader{ 
+    background-color: black;
+    border-radius: 50%;
     justify-content: center;
     flex-direction: column;
+    opacity: 0.5;
 }
 
 .Hand{
-    align-items: center;
     width: 400px;
-    height: 380px;
+    height: 400px;
+    justify-content: flex-end;
 }
-
-
-
 
 nav{
 background-color: #2dcb6f;
@@ -89,10 +87,10 @@ grid-area: nav;
 
 }
 
-.Notify img{
-    background-color: black;
-    opacity: 0.5;
-    
+.Notify{
+    position: relative;
+    bottom: 4vh;
+    left: 5vw;
 }
 
 section{
@@ -100,9 +98,8 @@ section{
     display: flex;
     grid-area: section;
     background: white;
+    text-align: center;
     
-
-
 }
  .Descricao{
     display: flex;
