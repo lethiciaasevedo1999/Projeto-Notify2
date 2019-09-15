@@ -123,6 +123,18 @@ header h1{
  background-color: #2ccc6d;
 }
 
+.ic1{
+    align-content: space-between;
+
+}
+
+.icone1{
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
 .Hand{
     width: 325px;
     height: 325px;
@@ -142,31 +154,61 @@ grid-area: nav;
 }
 
 section{
-    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: section;
+    /* text-align: center;
     display: flex;
     grid-area: section;
     justify-content: space-between;
-    padding: 40px;
     flex-direction: column;
-    height: 600px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* align-items: center;
+    height: 600px; */  
+}
+
+.ic1{
     display: flex;
-    grid-area: section;
-    background: white;
-    text-align: center; */
-    
+    flex-direction: column;
+    align-items: center;
+}
+
+.ic1 p{
+    color: gray;
+    font-size: 14pt;
+    margin: 0 50px;
+    text-align: justify;
+}
+
+.ic2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ic2 p{
+    color: gray;
+    font-size: 14pt;
+    margin: 0 50px;
+    text-align: justify;
+}
+
+.ic3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ic3 p{
+    color: gray;
+    font-size: 14pt;
+    margin: 0 50px;
+    text-align: justify;
 }
  .Descricao{
     display: flex;
     align-items: center;
-    margin: 2cm;
+    margin: 0;
     justify-content: space-evenly;
+    padding: 30px
 }
-
-/* section .Descricao div{
-    width: 300px;
-    justify-content: space-around;
-    align-items: center;
-} */
