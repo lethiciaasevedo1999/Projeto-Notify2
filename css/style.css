@@ -13,53 +13,53 @@ body{
 }
 
 body::-webkit-scrollbar{ 
-    width: 0px; /*remove scrollbar space */ 
     background: transparent;
+    width: 0px; /*remove scrollbar space */ 
 }
 
 .icone1{
-    cursor: pointer;
+    align-items: center;
     background-color: #2ccc6d;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    align-items: center;
-    justify-content: center;
+    cursor: pointer;
     display: flex;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
 }
 
 .icone2{
-    cursor: pointer;
-    flex-direction: row;
+    align-items: center;
     background-color: #2ccc6d;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    align-items: center;
+    cursor: pointer;
     display: flex;
+    flex-direction: row;
+    height: 80px;
     justify-content: center;
+    width: 80px;
 
 }
 
 .icone3{
-    cursor: pointer;
+    align-items: center;
     background-color:#2ccc6d;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    align-items: center;
+    cursor: pointer;
     display: flex;
+    height: 80px;
     justify-content: center;
+    width: 80px;
 }
 
 
 header{
     align-items: center;
     background-image: url(../images/banner.png);
-    grid-area: header;
-    height: 480px;
     display: flex;
+    height: 480px;
     justify-content: space-evenly;
+    grid-area: header;
 }
 
 
@@ -71,61 +71,56 @@ header h1{
 }
 
 .iconesheader .iconeandroid{ 
-    cursor: pointer;
-    flex-direction: row;
+    align-items: center;
     background-color: black;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    align-items: center;
+    cursor: pointer;
     display: flex;
+    flex-direction: row;
+    height: 40px;
     justify-content: center;
     opacity: 0.5;
+    width: 40px;
 }
 .iconesheader .iconeandroid:hover{
+    background-color: #2ccc6d;
     flex-direction: column;
     opacity: 1.0;
-    background-color: #2ccc6d;
 }
 .iconesheader .iconewindows{
-    cursor: pointer;
-    flex-direction: row;
+    align-items: center;
     background-color: black;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    align-items: center;
+    cursor: pointer;
     display: flex;
+    flex-direction: row;
+    height: 40px;
     justify-content: center;
     opacity: 0.5;
+    width: 40px;
 }
 
 .iconesheader .iconewindows:hover{
-    opacity: 1.0;
     background-color: #2ccc6d;
+    opacity: 1.0;
 }
 
 
 .iconesheader .iconeios{
-    cursor: pointer;
-    flex-direction: row;
+    align-items: center;
     background-color: black;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    align-items: center;
+    cursor: pointer;
     display: flex;
+    flex-direction: row;
+    height: 40px;
     justify-content: center;
     opacity: 0.5;
+    width: 40px;
 }
 .iconesheader .iconeios:hover{
- opacity: 1.0;
- background-color: #2ccc6d;
-}
-
-.ic1{
-    align-content: space-between;
-
+    background-color: #2ccc6d;
+    opacity: 1.0;
 }
 
 .icone1{
@@ -136,41 +131,42 @@ header h1{
 
 }
 .Hand{
-    width: 325px;
+    width: 330px;
     height: 325px;
     justify-content: flex-end;
 }
 
 nav{
-background-color: #2dcb6f;
-grid-area: nav;
+    background-color: #2dcb6f;
+    grid-area: nav;
 
 }
 
 .Notify{
-    position: relative;
     bottom: 4vh;
+    position: relative;
     left: 5vw;
+    color: white;
+    font-size: 15pt;
+}
+
+.Notify h1{
+    font-size: 25pt;
 }
 
 section{
 
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    grid-area: section;
-    /* text-align: center;
     display: flex;
-    grid-area: section;
-    justify-content: space-between;
     flex-direction: column;
-    height: 600px; */  
+    grid-area: section;
+      
 }
 
 .ic1{
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .ic1 p{
@@ -181,9 +177,9 @@ section{
 }
 
 .ic2 {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .ic2 p{
@@ -194,9 +190,9 @@ section{
 }
 
 .ic3 {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .ic3 p{
@@ -206,9 +202,13 @@ section{
     text-align: justify;
 }
  .Descricao{
-    display: flex;
     align-items: center;
-    margin: 0;
+    display: flex;
     justify-content: space-evenly;
+    margin: 0;
     padding: 30px
+}
+
+h1 span{
+    color: #2ccc6d;
 }
